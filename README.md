@@ -1,4 +1,4 @@
-# Exercise 1.9 - Story 
+# Exercise 1.9 - Story
 
 Write a program that asks the user for a character's name and their job. The program then prints a short story.
 
@@ -19,10 +19,11 @@ Perhaps Bob will not be a builder forever.
 The exercise template comes with a program template that includes the function and its call.
 
 ```python
-def story():
-    # Write your code here
-    
-story()
+def main():
+  #write your code below this line
+
+if __name__ == '__main__':
+    main()
 ```
 
 Here's another example output:
