@@ -1,33 +1,40 @@
-# Exercise 1.10 - Various Variables
+# Exercise 1.9 - Story 
+
+Write a program that asks the user for a character's name and their job. The program then prints a short story.
+
+The output must be as shown below -- note, the name and job depend on the user's input.
+
+```plaintext
+I will tell you a story, but I need some information first.
+What is the main character called?
+*Bob*
+What is their job?
+*a builder*
+Here is the story:
+Once upon a time there was Bob, who was a builder.
+On the way to work, Bob reflected on life.
+Perhaps Bob will not be a builder forever.
+```
 
 The exercise template comes with a program template that includes the function and its call.
 
-```plaintext
-Chicken:
-3
-Bacon (kg):
-5.5
-Tractor:
-None!
-
-And finally, a summary:
-3
-5.5
-None!
+```python
+def story():
+    # Write your code here
+    
+story()
 ```
 
-Modify the program in the given places so that it outputs the following:
+Here's another example output:
 
 ```plaintext
-Chicken:
-9000
-Bacon (kg):
-0.1
-Tractor:
-Zero
-
-And finally, a summary:
-9000
-0.1
-Zero
+I will tell you a story, but I need some information first.
+What is the main character called?
+*Ada*
+What is their job?
+*a Data scientist*
+Here is the story:
+Once upon a time there was Ada, who was a Data scientist.
+On the way to work, Ada reflected on life.
+Perhaps Ada will not be a Data scientist forever.
 ```
